@@ -283,6 +283,17 @@ button {
 	color: #212121;
 }
 
+.section-title-clients {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.2;
+	text-align: center;
+	letter-spacing: 0.03em;
+	margin-bottom: 50px;
+
+	color: #212121;
+}
+
 .work {
 	padding-top: 0;
 }
@@ -502,7 +513,7 @@ footer {
 /* 			stop porfolio kafelki */
 
 .icon-header {
-	--color1: currentColor;
+	fill: currentColor;
 	margin-right: 10px;
 	vertical-align: middle;
 }
@@ -519,11 +530,6 @@ footer {
 	padding: 25px 102.34px;
 	margin-bottom: 30px;
 	border-radius: 4px;
-}
-
-.icons-team {
-	margin-top: 16px;
-	margin-left: 10px;
 }
 
 .team-icons {
@@ -544,14 +550,17 @@ footer {
 
 .block-footer {
 	display: flex;
+	align-items: baseline;
 }
 
 .block-footer-contact {
-	margin-left: 100px;
+	margin-left: 70px;
 }
 
 .title-footer {
 	color: #ffffff;
+	font-weight: 700;
+	letter-spacing: 0.03em;
 }
 
 .section-main {
@@ -582,8 +591,7 @@ footer {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	color: var(--icons-color);
-	padding: 12px 12px;
+
 	border-radius: 50%;
 }
 
@@ -597,8 +605,8 @@ footer {
 .icon-customers {
 	fill: currentColor;
 
-	width: 86px;
-	height: 50px;
+	width: 106px;
+	height: 60px;
 }
 
 .icon-customers:hover,
@@ -611,18 +619,17 @@ footer {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 90px;
-	padding: 16px 32px;
+	width: 170px;
+	height: 92px;
+
 	color: var(--icons-color);
-	border: 1px solid var(--icons-color);
+	border: 1px solid currentColor;
 	border-radius: 4px;
 }
 
 .client-links:hover,
 .client-links:focus {
 	color: #2196f3;
-	fill: #2196f3;
-	border-color: #2196f3;
 }
 
 .client-list {
@@ -661,5 +668,11 @@ footer {
 }
 
 .pading-top {
-	padding-top: 20px;
+	margin-top: 20px;
+}
+
+.setting-in-row-footer {
+	display: flex;
+	gap: 10px;
+	justify-content: center;
 }
